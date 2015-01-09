@@ -1,7 +1,7 @@
 Suduko
 ======
 
-An implementation of Peter Norvig's Suduko solver.
+An implementation of Peter Norvig's Sudoku solver.
 (see http://norvig.com/sudoku.html)
 
 A Sudoku puzzle is a grid of 81 squares; the majority of enthusiasts
@@ -13,8 +13,8 @@ each unit are filled with a permutation of the digits 1 to 9.
 
 Call it using
 
-    {:ok, grid} = Suduko.solve('4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......')
-    Suduko.display grid
+    {:ok, grid} = Sudoku.solve('4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......')
+    Sudoku.display grid
 
 Note that you pass in a charlist, not a string.
 

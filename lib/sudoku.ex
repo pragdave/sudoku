@@ -12,7 +12,7 @@ defmodule Helpers do
 end
 
   
-defmodule Suduko do
+defmodule Sudoku do
 
   @moduledoc File.read!("README.md")
   

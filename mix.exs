@@ -1,9 +1,9 @@
-defmodule Suduko.Mixfile do
+defmodule Sudoku.Mixfile do
   use Mix.Project
 
   def project do
     [
-        app:     :suduko,
+        app:     :sudoku,
         version: "0.0.1",
         elixir:  "~> 1.1-dev",
         deps:    []

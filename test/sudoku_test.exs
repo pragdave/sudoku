@@ -1,8 +1,8 @@
-defmodule SudukoTest do
+defmodule SudokuTest do
   use ExUnit.Case
-  doctest Suduko
+  doctest Sudoku
 
-  alias Suduko, as: S
+  alias Sudoku, as: S
   test "basic setup" do
 
     assert length(S.squares) == 81
